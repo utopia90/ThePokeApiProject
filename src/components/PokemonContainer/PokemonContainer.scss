@@ -1,0 +1,24 @@
+.pokemon__container{
+    width: 55%;
+    margin: 0 auto;
+    background-color: yellow;
+    padding:  6rem;
+        width: 76%;
+    position: relative;
+    border-radius: 16rem;
+
+    &__backBtn{
+        position: absolute;
+        left: 10rem;
+        font-size: 4rem;
+        text-decoration: none;
+        color: inherit;
+        font-weight: bold;
+        font-size: 3rem;
+
+        &:hover{
+            color: deepskyblue;
+        }
+
+    }
+}

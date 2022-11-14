@@ -1,0 +1,39 @@
+.homepage__container {
+
+    &__title {
+        font-size: 4rem;
+    }
+
+    &__img {
+        >img {
+            width: 19rem;
+        }
+    }
+
+    &__btns {
+        cursor: pointer;
+
+        svg {
+            width: 6rem;
+            height: 11rem;
+
+            path {
+                &:hover {
+                    fill: #0064ff;
+                }
+            }
+        }
+        
+        &--left {
+            position: absolute;
+            top: 42%;
+            left: 1rem;
+        }
+
+        &--right {
+            position: absolute;
+            top: 42%;
+            right: 1rem;
+        }
+    }
+}
